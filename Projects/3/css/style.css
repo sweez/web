@@ -24,8 +24,54 @@ body {
 	background-color: darkgray;
 }
 
+li {
+	display: inline;
+	float: left;
+}
+
+li a:hover {
+	background-color: red;
+}
+
+li .active {
+	background-color: white;
+}
+
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	display: block;
+	padding: 10px;
+	background-color: darkgray;
+}
+
+/* 
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li a {
+	display: block;
+	width: 60px;
+	background-color: white;
+}
+
+li .active {
+	background-color: red;
+}
+*/
 .menu {
 	float: left;
 	background-color: darkgrey;
 	color: white; 
 }
+
+
