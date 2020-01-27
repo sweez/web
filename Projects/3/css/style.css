@@ -1,0 +1,31 @@
+body {
+	background-color: #111518;
+}
+
+.wrapper {
+	/* Centers the content */
+	margin-right: auto;
+	margin-left: auto;
+	
+	/* Sets the absolute max width of the content to 960px */
+	max-width: 960px;
+	
+	/* Will leave tiny gap when browser too small */
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#header{
+	color: white;
+	background-color: grey;
+}
+
+#menubar {
+	background-color: darkgray;
+}
+
+.menu {
+	float: left;
+	background-color: darkgrey;
+	color: white; 
+}

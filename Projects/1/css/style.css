@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #111518;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+.header {	
+	background-color: grey;
+  background-image: url("../images/under_construction.jpg");
+  background-size: auto 100px ;
+  height: 100px;
+
+}
+
+#menubar {
+	text-align: center;
+}
+
+.content{
+	margin-top: px;
+	padding: 5px;
+	background-color: #272a2f;
+	height: 500px;
+	color: #FFF;
+	
+	
+}
+
+
+
+
+/*MENUBAR START*/
+
+#menubar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+#menubar li {
+    float: left;
+}
+
+
+#menubar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 45px;
+    text-decoration: none;
+}
